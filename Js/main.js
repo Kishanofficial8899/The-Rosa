@@ -4,11 +4,11 @@ const SelectElement = (element) => {
 let MenuToggle = SelectElement('.menu-toggle');
 let body = SelectElement('body');
 let bars = SelectElement('.fa-bars');
+let Navlink = document.querySelectorAll('.nav-link');
+
 MenuToggle.addEventListener('click', function() {
   body.classList.toggle('open');
 });
-
-// fa-timestme
 
 window.sr = ScrollReveal();
 
@@ -36,9 +36,4 @@ sr.reveal('.animate-bottom', {
   duration: 1000,
   distance: '25rem',
   delay: 600
-});
-
-//FOR THE LIGHTBOX
-$(function() {
-  const $gallery = $('.gallery img').simpleLightbox();
 });
