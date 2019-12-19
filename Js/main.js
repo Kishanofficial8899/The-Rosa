@@ -37,3 +37,8 @@ sr.reveal('.animate-bottom', {
   distance: '25rem',
   delay: 600
 });
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c189c77a093872366bd66242a91d70d3533f02fc
