@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+@import './Usage/variable';
+@import './Usage/Media';
+
+/*Global styles*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-family: $body-font;
+  font-size: 10px;
+  color: $body-font-color;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 3.9rem 0;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+
+
+@media #{$breakpoint-sm} {
+  section {
+    padding: 7.9rem;
+  }
+}
+
+@media #{$breakpoint-md} {
+  section {
+    padding: 7.9rem;
+  }
+}
+
+//ALL THE PARTS CSS FILE
+@import './hero';
+@import './ourStory';
+@import './ourReceipes';
+@import './ourMenu';
+@import './culinaryDelight';
+@import './footer';

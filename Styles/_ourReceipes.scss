@@ -1,0 +1,53 @@
+.between {
+    min-height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tastful-recipes {
+    background: url('../images/tasteful-recipes.jpg') center no-repeat;
+    background-size: cover;
+
+    .global-headline {
+        text-align: center;
+        margin-top: 2rem;
+
+        .sub-headeline {
+            font-size: 5rem;
+            font-family: $secondary-font;
+            color: $secondary-font-color;
+            font-weight: 300;
+            line-height: 0.42;
+            letter-spacing: 2px;
+
+            .first-letter {
+                font-size: 10.2rem;
+                text-transform: uppercase;
+            }
+        }
+
+        .headline {
+            color: #fff !important;
+            font-size: 3rem;
+            font-family: $main-font;
+            line-height: 40px; //Optinal
+            letter-spacing: 0.5rem !important;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        .btn {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-right: -2px;
+        }
+
+        .headline {
+            color: $main-font-color-dark;
+            letter-spacing: 3px;
+            margin-right: -0.7rem;
+        }
+    }
+
+}
