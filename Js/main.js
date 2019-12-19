@@ -8,8 +8,6 @@ MenuToggle.addEventListener('click', function() {
   body.classList.toggle('open');
 });
 
-// fa-timestme
-
 window.sr = ScrollReveal();
 
 //Scroll Revel
