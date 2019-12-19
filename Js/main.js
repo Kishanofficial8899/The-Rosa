@@ -38,7 +38,4 @@ sr.reveal('.animate-bottom', {
   delay: 600
 });
 
-//FOR THE LIGHTBOX
-$(function() {
-  const $gallery = $('.gallery img').simpleLightbox();
-});
+
